@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import CoreML
+import Vision // For Image Processing
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -17,7 +21,10 @@ class ViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
     }
-
+    
+    @IBAction func cameraButtonTapped(_ sender: UIBarButtonItem) {
+    }
+    
 }
 
 
