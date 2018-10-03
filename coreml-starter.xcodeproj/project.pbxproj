@@ -14,6 +14,7 @@
 		FB6F4D64215B88DC00B74C79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6F4D62215B88DC00B74C79 /* LaunchScreen.storyboard */; };
 		FB6F4D6F215B88DC00B74C79 /* coreml_starterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6F4D6E215B88DC00B74C79 /* coreml_starterTests.swift */; };
 		FB6F4D7A215B88DC00B74C79 /* coreml_starterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6F4D79215B88DC00B74C79 /* coreml_starterUITests.swift */; };
+		FB86086A2164E9D900251D9F /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB8608692164E9D900251D9F /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FB6F4D75215B88DC00B74C79 /* coreml-starterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coreml-starterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6F4D79215B88DC00B74C79 /* coreml_starterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreml_starterUITests.swift; sourceTree = "<group>"; };
 		FB6F4D7B215B88DC00B74C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8608692164E9D900251D9F /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		FB6F4D58215B88DB00B74C79 /* coreml-starter */ = {
 			isa = PBXGroup;
 			children = (
+				FB8608682164E9D200251D9F /* Models */,
 				FB6F4D59215B88DB00B74C79 /* AppDelegate.swift */,
 				FB6F4D5B215B88DB00B74C79 /* ViewController.swift */,
 				FB6F4D5D215B88DB00B74C79 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				FB6F4D7B215B88DC00B74C79 /* Info.plist */,
 			);
 			path = "coreml-starterUITests";
+			sourceTree = "<group>";
+		};
+		FB8608682164E9D200251D9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB8608692164E9D900251D9F /* Inceptionv3.mlmodel */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB6F4D5C215B88DB00B74C79 /* ViewController.swift in Sources */,
+				FB86086A2164E9D900251D9F /* Inceptionv3.mlmodel in Sources */,
 				FB6F4D5A215B88DB00B74C79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
